@@ -31,6 +31,7 @@ jobs:
 
       - name: Build the charly binary from the pinned checkout
         run: |
+          mkdir -p /tmp/charly/bin
           cd /tmp/charly/charly && go build -buildvcs=false -ldflags "-X main.BuildCalVer=candy-ci" -o /tmp/charly/bin/charly .
 
       - name: The candy manifest validates at the pinned charly
