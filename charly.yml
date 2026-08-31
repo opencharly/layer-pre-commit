@@ -1,7 +1,7 @@
 version: 2026.232.0520
 pre-commit:
     candy:
-        version: 2026.166.1751
+        version: 2026.243.0100
         description: |
             A pre-commit git-hooks toolchain — the pre-commit orchestrator plus the taplo TOML and markdownlint Markdown linters its hooks invoke.
             Installs the pre-commit framework via pixi (conda-forge), the taplo TOML
@@ -9,8 +9,8 @@ pre-commit:
             Each tool lands as a real executable at a known path with a working --version,
             so the hook toolchain is directly verifiable.
         require:
-            - '@github.com/opencharly/layer-nodejs:v2026.235.2056'
-            - '@github.com/opencharly/layer-rust:v2026.237.458' # cargo install taplo-cli below requires cargo on PATH.
+            - '@github.com/opencharly/layer-nodejs:v2026.239.1624'
+            - '@github.com/opencharly/layer-rust:v2026.239.1627' # cargo install taplo-cli below requires cargo on PATH.
             # (nodejs is retained for completeness; pre-commit itself needs node for some hooks.)
         package:
             - pre-commit
