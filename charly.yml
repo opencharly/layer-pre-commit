@@ -1,7 +1,5 @@
-version: 2026.232.0520
 pre-commit:
     candy:
-        version: 2026.243.0100
         description: |
             A pre-commit git-hooks toolchain — the pre-commit orchestrator plus the taplo TOML and markdownlint Markdown linters its hooks invoke.
             Installs the pre-commit framework via pixi (conda-forge), the taplo TOML
