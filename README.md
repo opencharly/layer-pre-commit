@@ -23,7 +23,7 @@ known path:
 
 ## How to use it
 
-Compose the layer by pinning this repo in a box's `candy:` list:
+Compose the layer by adding this repo to a box's `candy:` composition (a `candy:` node carrying `base:` with a nested `candy:` list):
 
 ```yaml
 my-dev-box:
