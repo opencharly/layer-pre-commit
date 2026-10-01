@@ -7,8 +7,8 @@ pre-commit:
             Each tool lands as a real executable at a known path with a working --version,
             so the hook toolchain is directly verifiable.
         require:
-            - '@github.com/opencharly/layer-nodejs:v2026.239.1624'
-            - '@github.com/opencharly/layer-rust:v2026.239.1627' # cargo install taplo-cli below requires cargo on PATH.
+            - '@github.com/opencharly/layer-nodejs:v2026.272.0322'
+            - '@github.com/opencharly/layer-rust:v2026.272.0519' # cargo install taplo-cli below requires cargo on PATH.
             # (nodejs is retained for completeness; pre-commit itself needs node for some hooks.)
         package:
             - pre-commit
